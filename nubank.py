@@ -1,6 +1,7 @@
 import pdfquery
+import sys
 
-pdf = pdfquery.PDFQuery("/home/richard/Downloads/fatura.pdf")
+pdf = pdfquery.PDFQuery(sys.argv[1])
 pdf.load()
 
 label = pdf.pq('LTTextLineHorizontal:contains("Valor")')
