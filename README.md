@@ -2,7 +2,7 @@
 
 ##Requirements:
 
-pdf-query 
+pdf-query (https://pypi.python.org/pypi/pdfquery/0.2.2)
 
 ##Using:
 
